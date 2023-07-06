@@ -1,0 +1,193 @@
+/***HTML Tags***/
+
+body {
+  font-family: "Montserrat";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+/***Title***/
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+/***btn***/
+
+.Download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+
+/***img title***/
+.mobile {
+  width: 15%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.container-fluid {
+  padding: 3% 15% 4%;
+}
+
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  width: 90%;
+  font-weight: 900;
+}
+
+/***navbar***/
+.navbar {
+  padding-bottom: 3rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+}
+
+.navbar-nav {
+  padding-right: 10rem;
+  font-size: 1rem;
+}
+
+.nav-item {
+  padding: 0 0.938rem 0 0.938rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+
+/***Features***/
+
+
+#features {
+  background-color: #fff;
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-top: 20px;
+}
+
+.feature-box {
+  padding: 5% 5%;
+  text-align: center;
+}
+
+.icons {
+  color: #ef8172;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+
+
+
+/***Testimonials***/
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press-logo {
+  width: 13%;
+  margin: 20px 20px 50px;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+
+/***pricing-card***/
+
+
+#pricing {
+  text-align: center;
+  margin: 5% auto 5% auto;
+}
+
+.pricing-card {
+  padding-right: 5%;
+}
+
+/***CTA***/
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+  
+}
+
+.cta-header {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 5%;
+}
+
+/***footer***/
+
+#footer {
+  text-align: center;
+  background-color: #fff;
+}
+
+
+a {
+  color: black;
+  padding: 5% 1% 2% 1%;
+}
+
+/***responsive***/
+
+@media (max-width: 1029px) {
+  .mobile {
+    position: static;
+    transform: rotate(0deg);
+    width: 60%;
+  }
+}
